@@ -8,15 +8,17 @@ class Missions extends React.Component {
     return (
       <div data-testid="missions">
           <Title headline="Missões" />
+          <div className="missionTypes">
           {missions.map((mission) => (
               <MissionCard
-               key={mission.name}
-               name={mission.name}
-               year={mission.year}
-               country={mission.country}
-               destination={mission.country}
+               key={`Missao: ${mission.name}`}
+               name={`Missão:  ${mission.name}`}
+               year={`Ano: ${mission.year}`}
+               country={`País: ${mission.country}`}
+               destination={`Destino: ${mission.destination}`}
               />
           ))}
+          </div>
       </div>
     );
   }
