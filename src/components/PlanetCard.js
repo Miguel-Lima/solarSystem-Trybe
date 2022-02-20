@@ -3,19 +3,19 @@ import PropTypes from 'prop-types'; //Usando uma props
 
 class PlanetCard extends React.Component {
   render() {
-    const { planetName, planetImage } = this.props; //Props
+    const { planetNames, planetImages } = this.props; //Props
     return (
      <div data-testid="planet-card" className='planetCards'>
-       <p data-test-id="planet-name" className='planetNames'>{ planetName }</p>
-       <img src= { planetImage } alt= {`Planeta ${planetName}`}/>
+       <p data-test-id="planet-name" className='planetNames'>{ planetNames }</p>
+       <img src= { planetImages } alt= {`Planeta ${planetNames}`}/>
      </div>
     );
   }
 }
 
 PlanetCard.propTypes = { // Usando uma props
-  planetName: PropTypes.string.isRequired,
-  planetImage: PropTypes.string.isRequired,
+  planetNames: PropTypes.string.isRequired,
+  planetImages: PropTypes.string.isRequired,
 }
 
 export default PlanetCard;
