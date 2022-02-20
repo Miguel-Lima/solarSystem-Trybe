@@ -33,8 +33,8 @@ h2 {
 
 .planetTypes {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .planetNames {
@@ -62,27 +62,27 @@ h2 {
   border-radius: 15px;
   color: white;
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
   font-size: 1.2rem;
   height: 200px;
-  justify-content: space-around;
   margin: 25px;
-  text-align: center;
   width: 15%;
-}
-
-.planetCards:hover, .missionCards:hover {
-  background-color: rgba(0, 0, 0, 0.877);
-  cursor: pointer;
+  text-align: center;
 }
 
 .missionTypes {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   font-family: 'Chakra Petch', sans-serif;
 }
 
 .planetCards img {
   width: 70%;
+}
+
+.planetCards:hover, .missionCards:hover {
+  background-color: rgba(0, 0, 0, 0.877);
+  cursor: pointer;
 }
