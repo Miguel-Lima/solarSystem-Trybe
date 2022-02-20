@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'; // Quando recebe uma prop
 class Title extends React.Component {
     render() {
         const { headline } = this.props;
-        return (
+        return (          
            <h2> { headline }</h2>
         );
     }
