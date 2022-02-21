@@ -99,40 +99,40 @@ h2 {
 
 .mercurio {
   margin: 0% 1%;
-  width: 60px;
+  width: 55px;
 }
 
 .venus {
-  margin: 0% -1%;
-  width: 140px;
+  margin: 0% 0%;
+  width: 120px;
 }
 
 .terra {
-  margin: 0% -1%;
-  width: 150px;
+  margin: 0% 0%;
+  width: 130px;
 }
 
 .marte {
-  margin: 0% 0%;
-  width: 100px;
+  margin: 0% 0.5%;
+  width: 80px;
 }
 
 .jupiter {
-  margin: 0% -2%;
-  width: 340px;
+  margin: 0% -3%;
+  width: 390px;
 }
 
 .saturno {
-  margin: 0% -2%;
-  width: 320px;
+  margin: 0% -3.4%;
+  width: 370px;
 }
 
 .urano {
   margin: 0% -3%;
-  width: 230px;
+  width: 260px;
 }
 
 .netuno {
-  margin: 0% 0%;
-  width: 210px;
+  margin: 0% -1%;
+  width: 250px;
 }
