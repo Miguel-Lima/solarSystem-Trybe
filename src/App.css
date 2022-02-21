@@ -34,13 +34,14 @@ h2 {
 .planetTypes {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+ /* flex-wrap: wrap; */
+  align-items: end;
 }
 
 .planetNames {
   color: white;
   margin-top: 8px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -51,8 +52,6 @@ h2 {
   flex-direction: column;
   margin: 15px;
   width: 18.5%;
-  box-shadow: 0 0 20px rgb(214, 214, 214);
-  height: 70%;
 }
 
 .missionCards {
@@ -80,9 +79,60 @@ h2 {
 
 .planetCards img {
   width: 70%;
+  text-align: center;
 }
 
-.planetCards:hover, .missionCards:hover {
+.planetCards:hover img {
+  transition: 3.6s;
+  filter: grayscale(20%);
+  transform: scale(1.5) rotate(360deg);
+}
+
+.missionCards:hover {
   background-color: rgba(0, 0, 0, 0.877);
   cursor: pointer;
+}
+
+.planetCards:hover {
+  cursor: pointer;
+}
+
+.mercurio {
+  margin: 0% 1%;
+  width: 60px;
+}
+
+.venus {
+  margin: 0% -1%;
+  width: 140px;
+}
+
+.terra {
+  margin: 0% -1%;
+  width: 150px;
+}
+
+.marte {
+  margin: 0% 0%;
+  width: 100px;
+}
+
+.jupiter {
+  margin: 0% -2%;
+  width: 340px;
+}
+
+.saturno {
+  margin: 0% -2%;
+  width: 320px;
+}
+
+.urano {
+  margin: 0% -3%;
+  width: 230px;
+}
+
+.netuno {
+  margin: 0% 0%;
+  width: 210px;
 }
