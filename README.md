@@ -16,7 +16,7 @@ https://user-images.githubusercontent.com/83568294/154905737-3bd115a7-58d0-4198-
 </div>
 
 ## 🚀 Technologies
- - ✔️ React
+ - ✔️ ReactJS
  - ✔️ Javascript
  - ✔️ CSS
  - ✔️ HTML
